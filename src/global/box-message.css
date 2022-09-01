@@ -1,0 +1,20 @@
+.add-client-success {
+    background-color: #C3D4FE;
+    color: #243F80;
+    box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.add-client-success {
+    background-color: #F2D6D0;
+    color: #AE1100;
+    box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.feedback-error {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #E70000;
+}

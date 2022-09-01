@@ -1,0 +1,157 @@
+.container-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    background-color: #F0F0F5;
+    width: 7%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.box-icons-sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 54px 0;
+    color: #343447;
+}
+
+.box-icons-sidebar div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-icons-sidebar img {
+    height: 4.8rem;
+}
+
+.container-sidebar ul {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 8.0rem;
+}
+
+.container-sidebar li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-sidebar li a {
+    text-decoration: none;
+    color: #343447;
+}
+
+.container-sidebar .marker-up {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 8.2rem;
+    height: .2rem;
+    background-color: #DA0175;
+}
+
+.container-sidebar .marker-up {
+    transition: all 0.2s;
+}
+
+.marker {
+    position: absolute;
+    right: 0;
+    width: .2rem;
+    height: 8.2rem;
+    background-color: #DA0175;
+}
+
+.marker {
+    transition: all 0.2s;
+}
+
+.active-section {
+    filter: invert(24%) sepia(97%) saturate(2606%) hue-rotate(312deg) brightness(78%) contrast(126%);
+}
+
+@media (max-width: 1168px) {
+    .box-icons-sidebar span {
+        display: none;
+    }
+
+    .marker {
+        height: 7rem;
+    }
+
+    #icon-home {
+
+    }
+
+    #icon-clients {
+        margin-top: 2.3rem;
+    }
+    
+    #icon-charge {
+        margin-top: 2.3rem;
+    }
+}
+
+@media (max-width: 868px) {
+
+
+    .container-sidebar {
+        width: 10%;
+        left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .marker {
+        visibility: hidden;
+    }
+
+    .container-sidebar {
+        position: relative;
+        justify-content: flex-start;
+        height: 7rem;
+        width: 100%;
+        z-index: 12;
+        margin: 0;
+    }
+
+    .box-icons-sidebar {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        padding-top: 0;
+    }
+
+    .box-icons-sidebar ul {
+        width: 100%;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    #icon-clients {
+        margin-top: 0;
+    }
+    
+    #icon-charge {
+        margin-top: 0;
+    }
+
+    .container-sidebar .marker-up {
+        display: block;
+    }
+
+    .marker {
+        display: none;
+    }
+}

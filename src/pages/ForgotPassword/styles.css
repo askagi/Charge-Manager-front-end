@@ -1,0 +1,128 @@
+.container-require-password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../../assets//image-back-require-password.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-position: left;
+    background-attachment: fixed;
+}
+
+.icon-return {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    background-color: #DA0175;
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+    cursor: pointer;
+    opacity: 0.6;
+    z-index: 1;
+    transition: opacity 0.4s;
+}
+
+.icon-return:hover {
+    opacity: 0.9;
+}
+
+.container-content-password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.card-forgot-password {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    min-height: 45%;
+    width: 42rem;
+    margin-top: 20rem;
+    justify-content: center;
+    background-color: #fff;
+    padding: 3rem 4.5rem;
+    border-radius: 2.5rem;
+    box-shadow: rgba(50, 50, 93, 0.50) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    z-index: 2;
+}
+
+.card-forgot-password-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 42rem;
+    opacity: 0;
+    position: absolute;
+    justify-content: center;
+    padding: 3rem 4.5rem;
+    border-radius: 2.5rem;
+    transition: opacity 1.5s;
+    z-index: 2;
+}
+
+.card-forgot-password h1 {
+    margin-bottom: 3rem;
+}
+
+.inputs-label-forgot-password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.inputs-label-forgot-password label {
+    margin-bottom: 1rem;
+}
+
+.card-forgot-password-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 30rem;
+    width: 42rem;
+    opacity: 0;
+    background-color: #fff;
+    padding: 3rem 4.5rem;
+    position: absolute;
+    border-radius: 2.5rem;
+    transition: opacity 1s;
+    z-index: 0;
+}
+
+.card-forgot-password-code h1 {
+    margin-bottom: 2.5rem;
+}
+
+.inputs-label-forgot-password-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.card-forgot-password-code span:last-child {
+    margin-top: 4rem;
+}
+
+.width-100-pcnt {
+    width: 100%;
+}
+
+.mr-btom {
+    margin-bottom: 2.5rem;
+}

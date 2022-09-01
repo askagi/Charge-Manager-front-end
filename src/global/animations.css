@@ -1,0 +1,28 @@
+.animation-in-scale {
+    -webkit-animation: open-scale-in-center 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    animation: open-scale-in-center 0.1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@-webkit-keyframes open-scale-in-center {
+    from {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes open-scale-in-center {
+    from {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}

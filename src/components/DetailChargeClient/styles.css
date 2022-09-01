@@ -1,0 +1,247 @@
+.container-table-charge-detail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 3rem;
+    padding: 2.3rem 1.8rem;
+    min-height: 27rem;
+    background-color: #fff;
+    z-index: 0;
+}
+
+.text-overflow span {
+    text-overflow: ellipsis;
+}
+
+.arrow-down-up-id {
+    display: flex;
+    align-items: center;
+}
+
+.arrow-down-up-expired {
+    display: flex;
+    align-items: center;
+}
+
+.table-head-detail {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1.7rem 1.5rem;
+    color: #3F3F55;
+}
+
+.table-head-detail-charge {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1.7rem 1.5rem;
+    color: #3F3F55;
+    margin-bottom: 1.7rem;
+}
+
+.table-head-detail-charge span {
+    width: 14rem;
+}
+
+.table-content-detail-charge {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    padding: 0 1.7rem 0 1.7rem;
+    border-top: 1px solid #EFF0F6;
+}
+
+.table-content-detail-charge span {
+    text-align: left;
+    width: 14rem;
+    color: #6E6E85;
+}
+
+.mb-24 {
+    margin-bottom: 1.4rem;
+}
+
+.mr-24 {
+    margin-right: 0.5%;
+}
+
+#image-charge-table-detail {
+    display: flex;
+    flex-direction: column;
+    height: 1.8rem;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+#image-charge-table-detail img {
+    height: 1.8rem;
+}
+
+#table-content-description {
+    width: 35%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.charge-status {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    width: 14rem;
+}
+
+.charge-status span {
+    border-radius: 0.8rem;
+    padding: 0 0.8rem;
+}
+
+.paga {
+    background: #EEF6F6;
+    color: #1FA7AF !important;
+}
+
+.pendente {
+    background: #FCF6DC;
+    color: #C5A605 !important;
+}
+
+.vencida {
+    background-color: #FFEFEF;
+    color: #971D1D !important;
+}
+
+.settings-charge-detail {
+    display: none;
+}
+
+@media (max-width: 868px) {
+    #table-content-description {
+        display: none;
+    }
+
+    #image-charge-table-detail {
+        margin-right: 0.5rem;
+    }
+
+    .table-head-detail-charge {
+        margin-bottom: 1rem;
+    }
+
+    .table-head-detail-charge span {
+        width: 18rem;
+    }
+
+    .table-head-detail-charge .widt-14 {
+        width: 14rem;
+    }
+
+    .table-content-detail-charge span {
+        width: 18rem;
+    }
+
+    .table-content-detail-charge .widt-14 {
+        width: 14rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .arrow-down-up-expired {
+        display: none;
+    }
+
+    #image-charge-table-detail {
+        display: none;
+    }
+
+    .table-head-detail-charge span:first-child {
+        width: 13rem;
+    }
+
+    .table-content-detail-charge span:first-child {
+        width: 13rem;
+    }
+
+    .c-pointer {
+        cursor: pointer;
+    }
+
+    .table-content-detail-charge span {
+        font-size: 1.6rem;
+    }
+
+    .d-none {
+        display: none;
+    }
+
+    .action img:first-child {
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .action img:last-child {
+        height: 2.7rem;
+        width: 2.7rem;
+    }
+
+    .item-actions {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 15px;
+    }
+
+    .charge-status {
+        padding-left: 1rem;
+    }
+
+    .settings-charge-detail {
+        display: flex;
+        gap: 1.3rem;
+        cursor: pointer;
+    }
+
+    .settings-btn {
+        height: 2.3rem;
+        width: 2.3rem;
+        transform: rotate(0deg);
+        transition: all .3s;
+    }
+
+    .arrow-rotate {
+        transform: rotate(180deg);
+    }
+
+    .actions-box {
+        position: absolute;
+        z-index: 99;
+        right: 4px;
+        top: -70px;
+        background-color: #FFFFFF;
+        border-radius: 8px;
+        width: 13rem;
+        box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    }
+
+    .square {
+        width: 28px;
+        height: 28px;
+        position: absolute;
+        bottom: -3.5px;
+        right: 11px;
+        background-color: #FFFFFF;
+        transform: rotate(45deg);
+    }
+}

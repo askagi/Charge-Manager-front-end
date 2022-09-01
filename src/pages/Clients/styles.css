@@ -1,0 +1,346 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #F8F8F9;
+}
+
+.container-home img {
+    cursor: pointer;
+}
+
+.side-bar-home {
+    height: 100%;
+    width: 7%;
+    z-index: 12;
+}
+
+.container-home-right {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    top: 0;
+    padding: 0 0 3rem 0;
+    width: 93%;
+}
+
+.header {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    height: 9rem;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.client-header {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    bottom: 0.3rem;
+    left: 2rem;
+}
+
+.box-user-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 6rem;
+    min-width: 15rem;
+    justify-content: space-between;
+    margin-right: 6rem;
+}
+
+.initial-name-user-header {
+    display: flex;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: #DEDEE9;
+    align-items: center;
+    justify-content: center;
+    color: #0E8750;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.container-content-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 88%;
+    margin-top: 3.2rem;
+    flex-grow: 0;
+}
+
+.header-container-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 3.4rem;
+}
+
+.header-container-content-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-container-content-left h3 {
+    color: #3F3F55;
+}
+
+.header-container-content-right {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: flex-end;
+    width: 62rem;
+    z-index: 1;
+}
+
+.filter-charge {
+    position: absolute;
+    top: 150%;
+    right: 40%;
+}
+
+.header-container-content-right input {
+    border: 1px solid transparent;
+    box-shadow: rgba(218, 1, 117, 0.05);
+}
+
+.header-container-content-right button img {
+    margin-right: 0.5rem;
+}
+
+.header-container-content-right input:focus {
+    border: 1px solid rgba(218, 1, 117, 0.1)
+}
+
+.header-container-content-right button:first-child {
+    margin-right: 2.5rem;
+}
+
+.header-container-content-left img {
+    margin-right: 1rem;
+}
+
+#image-filter {
+    background-color: #fff;
+    padding: 0.88rem;
+    margin: 0 1.8rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    position: relative;
+}
+
+.search input {
+    box-shadow: rgba(218, 1, 117, 0.1) 5px 5px 12px;
+}
+
+.search input::placeholder {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    opacity: 0.7;
+}
+
+.search button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.search button img {
+    margin-right: 0;
+}
+
+.filter-active {
+    filter: invert(24%);
+}
+
+#deficit {
+    width: 16rem;
+}
+
+#deficit span {
+    background-color: #FFEFEF;
+    color: #971D1D;
+    border-radius: 0.8rem;
+    padding: 0.05rem 0.8rem;
+}
+
+@media (max-width: 1168px) {
+    .header-container-content-right {
+        width: 75%;
+        justify-content: flex-end;
+    }
+
+    .header-container-content-left {
+        width: 25%;
+    }
+
+    .filter-charge {
+        right: 41%;
+    }
+}
+
+@media (max-width: 868px) {
+    .search input {
+        width: 100%;
+    }
+
+    .container-home-right {
+        width: 90%;
+    }
+
+    .side-bar-home {
+        width: 10%;
+    }
+
+    .header-container-content-right {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .header-container-content-left {
+        display: none;
+    }
+
+    .filter-charge {
+        right: 43%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-home {
+        justify-content: center;
+    }
+
+    .side-bar-home {
+        position: fixed;
+        height: 7vh;
+        width: 100%;
+        z-index: 6;
+        bottom: 0;
+        top: '';
+    }
+
+    .container-content-home {
+        margin-top: 12rem;
+    }
+
+    .header-container-content-right button:first-child {
+        width: 45%;
+    }
+
+    .search {
+        width: 45%;
+    }
+
+    .search input {
+        width: 100%;
+    }
+
+    .header {
+        position: fixed;
+        z-index: 2;
+        top: 0;
+    }
+
+    .filter-charge {
+        left: 12%;
+        right: 20%;
+    }
+
+    .header-container-content {
+        margin-bottom: 4rem;
+    }
+
+    .container-home-right {
+        width: 100%;
+        justify-content: center;
+        min-height: 100vh;
+        padding-bottom: 9rem;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .container-content-home {
+        margin-top: 15rem;
+    }
+
+    .header-container-content {
+        margin-bottom: 2.5rem;
+    }
+
+    .header-container-content-right {
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
+
+    .header-container-content-right button:first-child {
+        margin-right: 0;
+    }
+
+    .header-container-content-right button:first-child {
+        width: 85.35%;
+        padding: 1.3rem 1.4rem;
+        font-size: 1.8rem;
+        margin-right: 0;
+    }
+
+    .search {
+        width: 92%;
+    }
+
+    .search input {
+        padding: 1.28rem 2rem;
+    }
+
+    .search img {
+        top: 1rem;
+        right: 1.5rem;
+    }
+
+    .search input::placeholder {
+        font-size: 1.75rem;
+        letter-spacing: 0.05rem;
+    }
+
+    #image-filter {
+        position: absolute;
+        top: 6.347rem;
+        width: 4.5rem;
+        height: 4.5rem;
+        padding: 0.5rem 0.7rem;
+        left: 0.4rem;
+        box-shadow: rgba(218, 1, 117, 0.2) 1px 1px 4px;
+        z-index: 1;
+    }
+
+    .filter-charge {
+        position: absolute;
+        top: 120%;
+        left: -0.5rem;
+    }
+}

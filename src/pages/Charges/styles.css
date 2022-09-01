@@ -1,0 +1,258 @@
+.container-charge {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #F8F8F9;
+}
+
+.iconCharge {
+    width: 32px;
+    height: 32px;
+}
+
+.side-bar {
+    height: 100%;
+    width: 7%;
+}
+
+.container-right-charge {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    width: 93%;
+}
+
+.header {
+    width: 100%;
+}
+
+.container-content-charge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 88%;
+    margin-top: 3.2rem;
+    flex-grow: 0;
+}
+
+.header-container-content-charge {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 3.4rem;
+}
+
+.header-container-content-left-charge {
+    display: flex;
+    align-items: center;
+}
+
+.header-container-content-left-charge h3 {
+    color: #3F3F55;
+}
+
+.header-container-content-right-charge {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+    z-index: 0;
+}
+
+.header-container-content-right-charge input {
+    border: 1px solid transparent;
+    box-shadow: rgba(218, 1, 117, 0.1) 5px 5px 12px;
+}
+
+.header-container-content-right-charge input:focus {
+    border: 1px solid rgba(218, 1, 117, 0.1)
+}
+
+.header-container-content-left-charge img {
+    margin-right: 1rem;
+}
+
+.search-charge {
+    display: flex;
+    position: relative;
+}
+
+.search-charge input::placeholder {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    opacity: 0.7;
+}
+
+.search-charge button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media (max-width: 1168px) {
+    .header-container-content-right-charge {
+        width: 75%;
+        justify-content: flex-end;
+    }
+
+    .header-container-content-left-charge {
+        width: 25%;
+    }
+
+    .filter-charge {
+        right: 41%;
+    }
+}
+
+@media (max-width: 868px) {
+    .search-charge input {
+        width: 100%;
+    }
+
+    .container-right-charge {
+        width: 90%;
+    }
+
+    .side-bar-charge {
+        width: 10%;
+    }
+
+    .header-container-content-right-charge {
+        width: 100%;
+    }
+
+    .header-container-content-left-charge {
+        display: none;
+    }
+
+    .filter-charge {
+        right: 43%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-charge {
+        justify-content: center;
+    }
+
+    .side-bar-charge {
+        position: fixed;
+        height: 7vh;
+        width: 100%;
+        z-index: 6;
+        bottom: 0;
+        top: '';
+    }
+
+    .container-content-charge {
+        margin-top: 12rem;
+    }
+
+    .header-container-content-right-charge button:first-child {
+        width: 45%;
+    }
+
+    .search-charge {
+        width: 100%;
+    }
+
+    .search-charge input {
+        width: 100%;
+    }
+
+    .header {
+        position: fixed;
+        z-index: 0;
+        top: 0;
+    }
+
+    .filter-charge {
+        left: 12%;
+        right: 20%;
+    }
+
+    .header-container-content-charge {
+        margin-bottom: 4rem;
+    }
+
+    .container-right-charge {
+        width: 100%;
+        gap: 30px;
+        min-height: 100vh;
+        padding-bottom: 6rem;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .container-content-charge {
+        margin-top: 12rem;
+    }
+
+    .header-container-content-charge {
+        margin-bottom: 2.5rem;
+    }
+
+    .header-container-content-right-charge {
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+    }
+
+    .header-container-content-right-charge button:first-child {
+        margin-right: 0;
+    }
+
+    .header-container-content-right-charge button:first-child {
+        width: 85.35%;
+        padding: 1.3rem 1.4rem;
+        font-size: 1.8rem;
+        margin-right: 0;
+    }
+
+    .search-charge input {
+        width: 92%;
+    }
+
+    .search-charge input {
+        padding: 1.28rem 2rem;
+    }
+
+    .search-charge img {
+        top: 1rem;
+        right: 1.5rem;
+    }
+
+    .search-charge input::placeholder {
+        font-size: 1.75rem;
+        letter-spacing: 0.05rem;
+    }
+
+    #image-filter {
+        position: absolute;
+        top: 6.347rem;
+        width: 4.5rem;
+        height: 4.5rem;
+        padding: 0.5rem 0.7rem;
+        left: 0.4rem;
+        box-shadow: rgba(218, 1, 117, 0.2) 1px 1px 4px;
+        z-index: 0;
+    }
+
+    .filter-charge {
+        position: absolute;
+        top: 120%;
+        left: -0.5rem;
+    }
+}

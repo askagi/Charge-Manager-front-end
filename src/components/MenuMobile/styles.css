@@ -1,0 +1,42 @@
+.css-i4bv87-MuiSvgIcon-root {
+    font-size: 2.5rem !important;
+}
+
+.hidden {
+    display: hidden;
+}
+
+.display-none {
+    display: none;
+}
+
+.css-118zhtq-MuiButtonBase-root-MuiFab-root-MuiSpeedDial-fab {
+    background-color: transparent !important;
+    color: transparent !important;
+    display: none !important;
+}
+
+button.css-118zhtq-MuiButtonBase-root-MuiFab-root-MuiSpeedDial-fab {
+    background-color: rgba(0, 0, 0, 0) !important;
+    box-shadow: none;
+}
+
+.css-xvqdrr-MuiSpeedDial-root.MuiSpeedDial-directionLeft {
+    background-color: transparent !important;
+}
+
+#SpeedDialplaygroundexample-actions button {
+    height: 7rem !important;
+    width: 7rem !important;
+    z-index: 1115 !important;
+}
+
+.MuiSpeedDialAction-fab {
+    background-color: transparent !important;
+}
+
+@media (max-width: 540px) {
+    button.css-118zhtq-MuiButtonBase-root-MuiFab-root-MuiSpeedDial-fab {
+        display: inline-flex !important;
+    }
+}

@@ -1,0 +1,156 @@
+.container-sign-in {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-color: #F8F8F9;
+}
+
+.sign-in-left {
+    width: 30%;
+    background-image: url('../../assets/background-sign-in.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    padding: 163px 47px;
+}
+
+.sign-in-left h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 1.9rem;
+    line-height: 130%;
+    color: #034A2A;
+}
+
+.sign-in-right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sign-in-right h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #343447;
+    margin-bottom: 3.2rem;
+}
+
+.sign-in-right .input-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sign-in-right form {
+    width: 344px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in-right .input-group {
+    display: flex;
+    flex-grow: 5;
+    flex-direction: column;
+    gap: 6px
+}
+
+.sign-in-right .input-group label {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #344054;
+}
+
+.sign-in-right .input-group input {
+    padding: 1rem 1.4rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #344054;
+}
+
+.sign-in-right button {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: #F8F8F9;
+    transition: all .3s;
+    margin-top: 46px;
+}
+
+.sign-in-right button:hover {
+    filter: drop-shadow(0px 2px 10px #da01754d);
+}
+
+.register-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1.5rem;
+    gap: .5rem;
+}
+
+.register-link span {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #3F3F55;
+}
+
+.container-sign-in a {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: #DA0175;
+}
+
+.box-error {
+    margin-top: 0.6rem;
+}
+
+.row-column-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-sign-in .feedback-error {
+    margin-left: 5px;
+}
+
+@media only screen and (max-width:960px) {
+    .sign-in-left {
+        width: 90%;
+        display: none;
+        background-image: none;
+    }
+
+    .container-sign-in {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sign-in-right {
+        width: 80%;
+    }
+
+    .sign-in-right form {
+        width: 80%;
+        margin: 10px;
+    }
+
+}

@@ -1,0 +1,222 @@
+.container-table-charges {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 3rem;
+    padding: 1.4rem 3rem;
+    background-color: #fff;
+    z-index: 0;
+}
+
+.order-group {
+    display: flex;
+    gap: 0.4rem;
+    cursor: pointer;
+}
+
+.body-table {
+    height: 35rem;
+    max-height: 35rem;
+    overflow: auto;
+}
+
+.table-head-charges {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    height: 5.8rem;
+    padding: 0 1.7rem 1.5rem;
+    color: #3F3F55;
+    border-bottom: 1px solid #EFF0F6;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.table-head-charges span {
+    display: flex;
+    width: 10rem;
+    align-items: center;
+}
+
+.table-head img {
+    margin-right: 0.4rem;
+}
+
+.table-content-charges {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 0 1.7rem;
+    width: 100%;
+    height: 5rem;
+    border-bottom: 1px solid #EFF0F6;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+
+.table-content-charges:hover {
+    background-color: rgba(239, 240, 246, 0.8);
+    border-radius: 5px;
+}
+
+.table-content-charges .item {
+    width: 10rem;
+    text-align: left;
+    color: #747488;
+    padding-top: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-head-charges .description-item--spacing {
+    width: 20%;
+    display: flex;
+    text-align: left;
+    color: #3F3F55;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.description-item {
+    width: 20%;
+    text-align: left;
+    color: #747488;
+    padding-top: 1.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-content-charges:last-child {
+    border-bottom: none;
+}
+
+.div-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.div-center span {
+    width: auto;
+}
+
+.row-actions {
+    display: flex;
+    align-items: center;
+    width: 9.5rem;
+    justify-content: space-between;
+}
+
+.actions-group {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    cursor: pointer;
+}
+
+.actions-group span {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.paga,
+.pendente,
+.vencida {
+    width: 16rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 0.8rem;
+    padding: 0.05rem 0.8rem;
+}
+
+.paga {
+    background: #EEF6F6;
+    color: #1FA7AF;
+}
+
+.pendente {
+    background: #FCF6DC;
+    color: #C5A605;
+}
+
+.vencida {
+    background-color: #FFEFEF;
+    color: #971D1D;
+}
+
+
+@media (max-width: 1168px) {
+    .container-table-charges {
+        overflow-x: scroll;
+        min-height: 40vh;
+        max-height: 60vh;
+        border: 1px solid #e9e9ee;
+    }
+
+    .mobile-hidden,
+    .description-item--spacing {
+        display: none !important;
+    }
+
+    .table-head-charges {
+        min-width: 80rem;
+        white-space: nowrap;
+        padding: 0 1.7rem 1.5rem 1.1rem;
+    }
+
+    .table-content-charges {
+        scroll-behavior: auto;
+        white-space: nowrap;
+    }
+
+    .body-table {
+        white-space: nowrap;
+        overflow-x: hidden;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .container-table-charges {
+        height: 33rem;
+    }
+
+    .table-head-charges {
+        min-width: 80rem;
+        white-space: nowrap;
+        padding: 0 1.7rem 1.5rem 1.1rem;
+    }
+
+    .table-content-charges {
+        scroll-behavior: auto;
+        white-space: nowrap;
+    }
+
+    .body-table {
+        white-space: nowrap;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-table-clients {
+        height: 35rem;
+    }
+}

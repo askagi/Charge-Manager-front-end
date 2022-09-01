@@ -1,0 +1,104 @@
+.container-delete-charge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: calc(100vw - 7vw);
+    backdrop-filter: blur(2px);
+    background: rgba(145, 154, 150, 0.3);
+    top: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 7vw;
+    z-index: 5;
+}
+
+.card-delete-charge {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5.5rem 9.5rem;
+    border-radius: 3rem;
+    background-color: #fff;
+}
+
+.card-delete-charge img {
+    cursor: pointer;
+}
+
+.card-delete-charge img:first-child {
+    position: absolute;
+    top: 2.7rem;
+    right: 2.8rem;
+}
+
+#alert-delete {
+    margin-bottom: 2.5rem;
+}
+
+.card-delete-charge h1 {
+    color: #CC7800;
+    margin-bottom: 2.5rem;
+}
+
+.btn-delete-yes-no {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.btn-delete-yes-no button {
+    padding: 0.01rem 3.4rem;
+    border-radius: 0.5rem;
+}
+
+.btn-delete-yes-no button:first-child {
+    color: #AE1100;
+    background-color: #F2D6D0;
+}
+
+.btn-delete-yes-no button:last-child {
+    color: #034A2A;
+    background-color: #ACD9C5;
+}
+
+@media (max-width: 868px) {
+    .card-delete-charge {
+        padding: 4rem 7rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-delete-charge {
+        width: 100%;
+        height: 91vh;
+        left: 0;
+    }
+
+    .card-delete-charge {
+        padding: 3.5rem 5rem;
+    }
+}
+
+@media (max-width: 547px) {
+    .card-delete-charge {
+        text-align: center;
+        width: 90%;
+        padding: 2.5rem 2rem;
+    }
+
+    .btn-delete-yes-no button {
+        padding: 1rem 4rem;
+        border-radius: 0.5rem;
+        font-size: 2.4rem;
+    }
+
+    .card-delete-charge img:first-child {
+        display: none;
+    }
+}

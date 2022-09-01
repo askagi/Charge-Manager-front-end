@@ -1,0 +1,18 @@
+.item--name,
+.card-title--name {
+    width: 40% !important;
+}
+
+.item--id,
+.card-title--id {
+    width: 35% !important;
+}
+
+.item--cpf,
+.card-title--cpf {
+    width: 25% !important;
+}
+
+.item--id {
+    padding-left: 5px;
+}

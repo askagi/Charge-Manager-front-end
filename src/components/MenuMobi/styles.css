@@ -1,0 +1,71 @@
+.container-menu-mobi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 7rem;
+    height: 7rem;
+    cursor: pointer;
+    display: none;
+}
+
+.menu-mobi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 30px;
+    border-radius: 50%;
+    position: fixed;
+    right: 1;
+    cursor: pointer;
+    height: 7rem;
+    width: 7rem;
+    z-index: 1;
+    color: #0E8750;
+    border: 1px solid #DEDEE9;
+    background-color: #DEDEE9;
+}
+
+.menu-mobi:active {
+    transform: scale(1.1);
+}
+
+.logout-user-menu img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.btn-edit-user-menu img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.btn-edit-user-menu,
+.logout-user-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 6.3rem;
+    height: 6.3rem;
+    border: none;
+    border-radius: 50%;
+}
+
+.btn-edit-user-menu {
+    transition: all 0.4s;
+}
+
+.logout-user-menu {
+    transition: all 0.2s;
+}
+
+@media (max-width: 540px) {
+    .container-menu-mobi {
+        display: block;
+    }
+}

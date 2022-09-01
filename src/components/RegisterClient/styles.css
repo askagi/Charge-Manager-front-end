@@ -1,0 +1,170 @@
+.container-register-client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: calc(100vw - 7vw);
+    top: 0;
+    right: 0;
+    left: 7%;
+    height: 100vh;
+    backdrop-filter: blur(2px);
+    background: rgba(145, 154, 150, 0.3);
+    z-index: 10;
+}
+
+.icon-close {
+    position: absolute;
+    height: 1.7rem;
+    width: 1.7rem;
+    top: 3rem;
+    right: 3rem;
+    cursor: pointer;
+}
+
+.form-register-client {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 3rem 3.5rem 3.5rem 4rem;
+    height: 60rem;
+    width: 55rem;
+    border-radius: 3rem;
+}
+
+.form-register-client form {
+    padding: 0 1rem 2.5rem 0;
+    overflow-y: scroll;
+    overflow-x: none;
+}
+
+.title-form {
+    display: flex;
+    width: 100%;
+    padding-bottom: 1.5rem;
+}
+
+.form-register-client label {
+    margin-bottom: 0.26rem;
+}
+
+.form-register-client .form-register-double-inputs-label {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.margin-top {
+    margin-top: 1rem;
+}
+
+.form-register-client .form-register-double-inputs-label div {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+.form-register-client form .form-register-inputs-label {
+    margin-bottom: 2.5rem;
+}
+
+.form-register-client .form-register-double-inputs-label .form-register-inputs-label-city {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+    width: 65%;
+}
+
+.form-register-client .form-register-double-inputs-label .form-register-inputs-label-uf {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+    width: 30%;
+}
+
+.form-register-client form .form-register-btn {
+    display: flex;
+    position: absolute;
+    width: 83.6%;
+    bottom: 2rem;
+    left: 4rem;
+    right: 0;
+    padding-top: 1.5rem;
+    border-radius: 0 0 3.5rem 3.5rem;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 0.7rem;
+    background-color: #fff;
+}
+
+.form-register-btn button {
+    width: 40%;
+}
+
+.relative {
+    position: relative;
+}
+
+.form-register-client .form-register-inputs-label .absolute {
+    position: absolute;
+    display: flex;
+    top: 6.3rem;
+}
+
+.feedback-error {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #E70000;
+}
+
+@media (max-width: 768px) {
+    .container-register-client {
+        width: 100%;
+        height: 91vh;
+        left: 0;
+    }
+
+    .form-register-btn {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .container-register-client {
+        width: 100%;
+        height: 89vh;
+        left: 0;
+    }
+
+    .title-form {
+        justify-content: center;
+        padding-right: 1rem;
+    }
+
+    .form-register-client {
+        padding: 1.1rem 2rem 1rem 4rem;
+        width: 92%;
+
+    }
+
+    .form-register-client form .form-register-btn {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        left: 0;
+        justify-content: space-around;
+        margin-top: 0rem;
+        padding-left: 1rem;
+    }
+
+    .form-register-btn button {
+        width: 27%;
+    }
+
+    .icon-close {
+        display: none;
+    }
+}

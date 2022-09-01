@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@600;700&family=Nunito:wght@400;600&display=swap');
+
+.font-mont-serrat-bold-24 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 130%;
+    font-size: 2.4rem;
+}
+
+.font-mont-serrat-bold-18 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    line-height: 130%;
+    font-size: 1.8rem;
+}
+
+.font-mont-serrat-bold-18-700 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.3rem;
+    font-size: 1.8rem;
+}
+
+
+.font-mont-serrat-bold-16 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    line-height: 130%;
+    font-size: 1.6rem;
+}
+
+.font-mont-serrat-bold-16-weight {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    font-size: 1.6rem;
+}
+
+.font-mont-serrat-semi-bold-26 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    font-size: 2.6rem;
+}
+
+.font-mont-serrat-semi-bold-18 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    line-height: 130%;
+    font-size: 1.8rem;
+}
+
+
+.font-nunito-bold-16 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    line-height: 130%;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+
+.font-nunito-regular-16 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    font-size: 1.6rem;
+}
+
+.font-nunito-regular-18-weight-700 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+}
+
+.font-nunito-regular-18-weight-400 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    font-size: 1.8rem;
+}
+
+.font-nunito-regular-16-weight-400 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    font-size: 1.6rem;
+}
+
+.font-nunito-regular-14-weigth-600 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%;
+    font-size: 1.4rem;
+}
+
+.font-nunito-regular-14 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    font-size: 1.4rem;
+}
+
+.font-nunito-regular-12 {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    line-height: 130%;
+    font-size: 1.2rem;
+}

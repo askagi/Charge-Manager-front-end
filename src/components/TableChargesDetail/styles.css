@@ -1,0 +1,170 @@
+.container-table-charges {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 3rem;
+    padding: 1.4rem 3rem;
+    background-color: #fff;
+    z-index: 0;
+}
+
+.container-table-clients-detail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 3rem;
+    padding: 2.3rem 1.8rem;
+    min-height: 27rem;
+    background-color: #fff;
+    z-index: 0;
+}
+
+.order-group {
+    display: flex;
+    gap: 14px;
+    cursor: pointer;
+}
+
+.body-table {
+    max-height: 35rem;
+    overflow: auto;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.table-head-charges {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    height: 5.8rem;
+    padding: 0 1.7rem 1.5rem;
+    color: #3F3F55;
+    border-bottom: 1px solid #EFF0F6;
+}
+
+#arrow-down-up {
+    display: flex;
+    align-items: center;
+}
+
+.table-head-charges span {
+    display: flex;
+    align-items: center;
+}
+
+.table-head img {
+    margin-right: 0.4rem;
+}
+
+.table-head-charges span {
+    width: 10rem;
+}
+
+.table-content-charges {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 0 1.8rem;
+    width: 100%;
+    height: 4.6rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #EFF0F6;
+    transition-property: background-color;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+}
+
+.table-content-charges .item {
+    width: 10rem;
+    text-align: left;
+    color: #747488;
+    padding-top: 1.3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-content-charges:last-child {
+    border-bottom: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.row-actions {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+#image-charge-table {
+    margin-top: 0.5rem;
+}
+
+.actions-group {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1.3rem;
+    cursor: pointer;
+}
+
+.actions-group span {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.paga,
+.pendente,
+.vencida {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 0.8rem;
+    padding: 0.05rem 0.8rem;
+}
+
+.paga {
+    background: #EEF6F6;
+    color: #1FA7AF;
+}
+
+.pendente {
+    background: #FCF6DC;
+    color: #C5A605;
+}
+
+.vencida {
+    background-color: #FFEFEF;
+    color: #971D1D;
+}
+
+@media (max-width: 1168px) {
+    .container-table-charges {
+        overflow-x: scroll;
+        height: 30rem;
+        border: 1px solid #e9e9ee;
+    }
+
+    .table-head {
+        min-width: 1200px;
+        white-space: nowrap;
+        padding: 0 1.7rem 1.5rem 1.1rem;
+    }
+
+    .table-content {
+        scroll-behavior: auto;
+        white-space: nowrap;
+    }
+
+    .body-table {
+        min-width: 1207px;
+        white-space: nowrap;
+        overflow-x: hidden;
+    }
+}

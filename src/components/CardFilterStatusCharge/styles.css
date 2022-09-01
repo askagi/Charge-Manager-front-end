@@ -1,0 +1,108 @@
+.container-filter-status-charge {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #fff;
+    width: 37.4rem;
+    padding: 3.5rem 3rem;
+    border-radius: 3rem;
+    filter: drop-shadow(0px 4px 42px rgba(0, 0, 0, 0.2));
+}
+
+.container-filter-status-charge label {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.filter-charge-date:focus {
+    border: 1px solid #0E8750;
+}
+
+.form-register-btn-filter-charge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.form-register-btn-filter-charge .btn-confirm {
+    box-sizing: border-box;
+    width: 100%;
+}
+.form-register-btn-filter-charge .btn-cancel {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form-register-btn-filter-charge button:first-child {
+    margin-bottom: 1rem;
+}
+
+.charge-pending-filter {
+    display: flex;
+    height: 4.3rem;
+    background-color: #F0F0F5;
+    border-radius: 1rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.6rem;
+    align-items: center;
+    padding: 0 1.2rem;
+}
+
+.polygon-icon {
+    height: 3.2rem;
+    width: 3.2rem;
+    position: absolute;
+    top: -2.4rem;
+    right: 3rem;
+}
+
+@media (max-width: 768px) {
+    .container-filter-status-charge {
+        padding: 1rem 3rem;
+    }
+
+    .form-register-btn-filter-charge {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+
+    .container-filter-status-charge label {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .form-register-btn-filter-charge button:first-child {
+        margin-bottom: 1rem;
+    }
+
+    .polygon-icon {
+        right: 10rem;
+    }
+}
+
+@media (max-width: 540px) {
+    .polygon-icon {
+        position: absolute;
+        top: -2.4rem;
+        left: 2.6rem;
+    }
+
+    .container-filter-status-charge {
+        padding: 1rem 3rem;
+    }
+
+    .form-register-btn-filter-charge {
+        margin-top: 2rem;
+    }
+
+    .container-filter-status-charge label {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+
+    .form-register-btn-filter-charge button:first-child {
+        margin-bottom: 1rem;
+    }
+}
