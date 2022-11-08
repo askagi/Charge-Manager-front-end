@@ -1,4 +1,6 @@
 ![](https://i.imgur.com/xG74tOh.png)
+![](https://i.imgur.com/zk95BRR.png)
+
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/askagi/Charge-Manager-front-end?color=%2304D361">
 
@@ -7,78 +9,99 @@
   <a href="https://github.com/askagi/Charge-Manager-front-end/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/askagi/Charge-Manager-front-end">
   </a>
-
+    
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/askagi/Charge-Manager-front-end/stargazers">
+   <a href="https://github.com/askagi/Charge-Manager-front-end">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/askagi/Charge-Manager-front-end?style=social">
-  </a>  
-
+  </a>
 </p>
-<h1 align="center">
-    Desafio Final - Cubos Academy
-</h1>
 
-<h4 align="center">
- 🚧  Charge Manage 💰 Concluído  ✅ 🚧
-</h4>
-
-<p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-layout">Layout</a> •  
- <a href="#-tecnologias">Tecnologias</a> •
- <a href="#-contribuidores">Contribuidores</a> •
-</p>
 
 ## 💻 Sobre o projeto
 
-💰 Charge Manager - é um sistema para gestão de cobranças onde o usuário tem a possibilidade cadastar clientes e cobranças.
+🎓 Desafio final do curso de Desenvolvimento de Sofware - Cubos Academy. O projeto é um aplicaçõa para gerenciamento de cobranças com as seguintes funcionalidades: 
 
-Projeto desenvolvido durante o curso de  **Desenvolvimento de Software**, oferecida pela [Cubos Academy](https://cubos.academy/).
+- Cadastrar/Login de usuário
+- Editar dados do usuário
+- Cadastrar clientes
+- Editar dados de clientes
+- Excluir clientes
+- Cadastrar cobranças vinculado ao cliente
+- Editar dados da cobranças
+- Excluir cobranças
+- Pesquisar cliente por nome ou CPF
+- Pesquisar cobrança por nome do cliente 
+- Exibir resumo de cobranças
 
 ---
 
 ## 🎨 Layout
 
-### Mobile
+O layout da aplicação <a href="https://cubos.academy/"><img alt="Feito pela Rocketseat" src="https://img.shields.io/badge/feito%20pela-Cubos Academy-%23e5007b">
+  </a>
 
-<p align="center">
-  <img alt="ChargeManage" title="#ChargeManage" src="./assets/home-mobile.png" width="200px">
+### Algumas telas da aplicação
 
-  <img alt="ChargeManage" title="#ChargeManage" src="./assets/detalhes-mobile.svg" width="200px">
-</p>
+![](https://i.imgur.com/u7IVe01.png)
 
-### Web
+![](https://i.imgur.com/kpN2Thw.png)
 
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="ChargeManage" title="#ChargeManage" src="./assets/web.svg" width="400px">
+![](https://i.imgur.com/5eXpVHZ.png)
 
-  <img alt="ChargeManage" title="#ChargeManage" src="./assets/sucesso-web.svg" width="400px">
-</p>
+![](https://i.imgur.com/qnO4EYf.png)
+
+![](https://i.imgur.com/B0YPR3F.png)
+
+![](https://i.imgur.com/xIXrLFu.png)
+
 
 ---
+## 🚀 Como executar o projeto
 
+```bash
+
+# Clone este repositório
+$ git clone git@github.com:askagi/Charge-Manager-front-end.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd Charge-Manager-front-end
+
+# Instale as dependências
+$ npm install
+
+ou
+
+$ yarn install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
+
+ou
+
+$ yarn start
+
+```
+---
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Website**  ([React](https://reactjs.org/))
-
-- **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
-- **[React Icons](https://react-icons.github.io/react-icons/)**
-- **[Axios](https://github.com/axios/axios)**
+#### **Website**  
+- **[React](https://reactjs.org/)**
+- **[React-Router-Dom](https://v5.reactrouter.com/web/guides/quick-start)**
+- **[Axios](https://axios-http.com/ptbr/)**
+- **[Material-UI](https://mui.com/)**
 
 > Veja o arquivo  [package.json](https://github.com/askagi/Charge-Manager-front-end/blob/master/package.json)
 
 #### **Utilitários**
 
-- Protótipo:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (Desafio Final)](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta)**
+- Protótipo:  **[Figma](https://www.figma.com/)**
 - API:  **[ViaCep API](https://viacep.com.br/)**
 - Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**
 - Markdown:  **[HackMD](https://hackmd.io/)**
 - Teste de API:  **[Insomnia](https://insomnia.rest/)**
-
 ---
-
 ## 👨‍💻 Contribuidores
 
 💜 Um super thanks 👏 para essa equipe, a melhor do muundo!!
